@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Products;
+use App\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -21,6 +22,13 @@ class DatabaseSeeder extends Seeder
             'gambar_produk' => 'images/1.png',
             'harga' => 6000000,
             'stok' => 1
+        ]);
+
+        User::create([
+            'id' => 1,
+            'name' => 'Dzaki',
+            'email' => 'dzaki@gmail.com',
+            'password' => '12345'
         ]);
     }
 }

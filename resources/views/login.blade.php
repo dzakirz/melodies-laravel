@@ -16,9 +16,15 @@
                 </div>
                 <div class="w-full mt-16 flex flex-col px-[200px]">
                     <h1 class="mb-5 text-5xl font-semibold">Login</h1>
-                    <input class="px-3 py-1 border-2 rounded-lg h-11 border-slate-400" type="text" placeholder="Email">
-                    <input class="px-3 py-1 mt-5 border-2 rounded-lg h-11 border-slate-400" type="password" placeholder="Password">
-                    <a href="/keranjang" class="flex items-center justify-center py-3 mt-5 text-xl font-semibold text-white transition-all duration-200 rounded-lg bg-slate-400 hover:bg-slate-500">Login</a>
+                    <form action="/login" method="post">
+                        @csrf
+                        
+                        <input class="px-3 py-1 border-2 rounded-lg h-11 border-slate-400" type="email" name="email" id="email" placeholder="Email"
+                                autofocus required value="{{ old('email') }}">
+                        <input class="px-3 py-1 mt-5 border-2 rounded-lg h-11 border-slate-400" type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+                        <button type="submit" class="flex items-center justify-center py-3 mt-5 text-xl font-semibold text-white transition-all duration-200 rounded-lg bg-slate-400 hover:bg-slate-500">Login</button>
+                    </form>
+
                     <div class="w-full pt-5 text-center">
                         <h1>Dont have an account? <span><a href="/register" class="text-blue-500">Register</a></span></h1>
                     </div>
