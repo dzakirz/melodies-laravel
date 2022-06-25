@@ -20,7 +20,7 @@
                     <input class="px-3 py-1 mt-5 border-2 rounded-lg h-11 border-slate-400" type="password" placeholder="Password">
                     <a href="/keranjang" class="flex items-center justify-center py-3 mt-5 text-xl font-semibold text-white transition-all duration-200 rounded-lg bg-slate-400 hover:bg-slate-500">Login</a>
                     <div class="w-full pt-5 text-center">
-                        <h1>Dont have an account? <span><a href="/login" class="text-blue-500">Register</a></span></h1>
+                        <h1>Dont have an account? <span><a href="/register" class="text-blue-500">Register</a></span></h1>
                     </div>
                 </div>
             </div>
