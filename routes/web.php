@@ -28,7 +28,6 @@ Route::get('/checkout', function () {
 
 
 // Dashboard
-
 Route::get('/', [DashboardController::class, 'index']);
 
 // LOGIN USER

@@ -23,6 +23,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 @endif
+
             <div class="w-full">
                 <div class="w-full py-20 px-36">
                     <h1 class="text-5xl font-semibold">Melodies</h1>
