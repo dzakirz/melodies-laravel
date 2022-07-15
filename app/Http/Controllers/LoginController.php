@@ -17,7 +17,7 @@ class LoginController extends Controller
 
     public function authenticate(Request $request)
     {   
-        try {
+         
             $credentials = $request->validate([
                 'email' => 'required|email:dns',
                 'password' => 'required'
@@ -28,9 +28,6 @@ class LoginController extends Controller
                 return redirect()->intended('/');
             }
 
-        } catch (\Exception $err) {
-            dd($err);
-        }
         return back()->with('loginError', 'login failed!');
     }
 
