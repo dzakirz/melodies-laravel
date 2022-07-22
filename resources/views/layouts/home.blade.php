@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class=" flex justify-center items-center">
-            <img class="h-[450px] w-[700px]" src="images/drum.png" alt="">
+            <img width="200px" src="images/drum.png" alt="">
         </div>
     </header>
 
