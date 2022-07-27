@@ -24,18 +24,53 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Products::create([
-            'kategori_produk' => 'Gitar Elektrik',
-            'merk_produk' => 'FENDER',
-            'gambar_produk' => 'images/5.png',
+            'kategori_produk' => 'Saxophone',
+            'merk_produk' => 'YAMAHA',
+            'gambar_produk' => 'images/2.png',
             'harga' => 5500000,
             'stok' => 1
         ]);
 
         Products::create([
             'kategori_produk' => 'Drum',
-            'merk_produk' => 'ARMADA',
+            'merk_produk' => 'GRETSCH',
             'gambar_produk' => 'images/3.png',
             'harga' => 12000000,
+            'stok' => 1
+        ]);
+        Products::create([
+            'kategori_produk' => 'Piono',
+            'merk_produk' => 'SOLARCI',
+            'gambar_produk' => 'images/4.png',
+            'harga' => 22000000,
+            'stok' => 1
+        ]);
+        Products::create([
+            'kategori_produk' => 'Guitar Classic',
+            'merk_produk' => 'YAMAHA',
+            'gambar_produk' => 'images/5.png',
+            'harga' => 7000000,
+            'stok' => 1
+        ]);
+        Products::create([
+            'kategori_produk' => 'Guitar Electric',
+            'merk_produk' => 'FENDOR',
+            'gambar_produk' => 'images/6.png',
+            'harga' => 8000000,
+            'stok' => 1
+        ]);
+        Products::create([
+            'kategori_produk' => 'Drum',
+            'merk_produk' => 'PEARL',
+            'gambar_produk' => 'images/7.png',
+            'harga' => 18000000,
+            'stok' => 1
+        ]);
+        Products::create([
+            'kategori_produk' => 'Biola',
+            'merk_produk' => 'YAMAHA',
+            'gambar_produk' => 'images/8.png',
+            'harga' => 9000000,
             'stok' => 1
         ]);
 

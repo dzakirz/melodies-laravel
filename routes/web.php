@@ -25,6 +25,9 @@ Route::get('/keranjang', function () {
 Route::get('/checkout', function () {
     return view('checkout');
 });
+Route::get('/success', function () {
+    return view('checkout_respon');
+});
 
 
 // Dashboard

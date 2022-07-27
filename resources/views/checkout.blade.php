@@ -60,16 +60,16 @@
                     <div class=" w-[300px] mt-10 pt-5 flex flex-col justify-end ">
                         <div class="flex justify-between w-full text-sm font-normal">
                             <h1>Subtotal</h1>
-                            <h1>Rp.1.000.000</h1>
+                            <h1>Rp.10.500.000</h1>
                         </div>
                         <div class="w-full ">
                             <div class="h-[.5px] w-full bg-gray-400 my-3 "></div>
                         </div>
                         <div class="flex justify-between w-full text-sm font-normal">
                             <h1>Total</h1>
-                            <h1>Rp.1.000.000</h1>
+                            <h1>Rp.10.500.000</h1>
                         </div>
-                        <a href="/checkout" class="flex justify-center w-full py-3 mt-3 text-white bg-gray-800 rounded-sm cursor-pointer hover:bg-gray-900">
+                        <a href="/success" class="flex justify-center w-full py-3 mt-3 text-white bg-gray-800 rounded-sm cursor-pointer hover:bg-gray-900">
                             Checkout
                         </a>
                     </div>

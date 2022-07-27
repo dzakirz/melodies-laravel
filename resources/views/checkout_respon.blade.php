@@ -6,8 +6,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <nav class="h-16 w-full bg-[#5f5f5f] px-[12%] flex justify-between items-center cursor-pointer">
-        <a href="/" class="text-white font-semibold text-2xl flex h-full justify-center items-center">
+    <nav class="h-16 w-full bg-[#5f5f5f] px-[12%] flex justify-between items-center">
+        <a href="/" class="text-white font-semibold text-2xl flex h-full justify-center items-center cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2" viewBox="0 0 20 20" fill="currentColor">
             <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z" />
         </svg> 
@@ -16,13 +16,13 @@
         <div class="h-full w-3/12 flex justify-between items-center">
             <div class="flex">
                 <input type="text" class="w-[200px] pl-2 pr-10 rounded-md text-sm py-1" placeholder="Cari Produk . . .">
-            <a href="search" class="mt-1 -ml-6 mr-3">
+            <button class="-ml-6 mr-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-            </a>
+            </button>
             </div>
-            <a href="/keranjang" class="text-white">
+            <a href="" class="text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -34,21 +34,11 @@
             </a>
         </div>
     </nav>
-    <header class=" h-[550px] w-full bg-[#c8c8c8] px-[10%] grid grid-cols-2">
-        <div class="h-full flex flex-col justify-center items-center text-center">
-            <div class="w-7/12 h-3/12">
-            <h1 class="text-7xl font-bold text-red-500">BIG SALE !</h1>
-            <h2 class="text-5xl font font-semibold text-gray-600">BUY 1 GET 1</h2>
-            <p class="text-lg">DAPATKAN PROMO INI SAMPAI DENGAN TANGGAL 29 JANUARI 2022</p>
-            </div>
-        </div>
-        <div class=" flex justify-center items-center">
-            <img width="700px" src="images/drum.png" alt="">
-        </div>
-    </header>
 
-    <section class="text-gray-600 body-font px-[12%] min-h-screen">
-        @yield('container')
+    <section class="pb-20 max-w-full min-h-[80vh] flex items-center pt-56 flex-col">
+        <h1 class="font-semibold text-5xl text-green-400">Success!</h1>
+        <p class="font-semibold text-xl">Terimakasih atas pembeliannya</p>
+        <a href="/" class="bg-black text-white p-3 rounded-xl mt-5 hover:bg-slate-600">Kembali ke home</a>
     </section>
 
     <footer class=" body-font px-[12%] bg-[#5f5f5f]">
